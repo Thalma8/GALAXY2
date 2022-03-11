@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundhome"
+    tools:context=".ACTUALHOME">
+
+
+    <Button
+        android:id="@+id/Basketballbtn"
+        android:layout_width="162dp"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="85dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:hint="BASKET BALL" />
+
+    <Button
+        android:id="@+id/Footballbtn"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Basketballbtn"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="195dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:hint="FOOTBALL" />
+
+    <TextView
+        android:id="@+id/RegisterGame"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:layout_below="@id/Basketballbtn"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginBottom="10dp"
+        android:background="#33ffffff"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/cantata_one"
+        android:hint="Register to Schedule"
+        android:padding="20dp"
+        android:paddingBottom="@dimen/cardview_default_elevation"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Tennisbtn"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RegisterGame"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="130dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:text="TENNIS"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="181dp"
+        android:layout_height="181dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/basketballphoto" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="175dp"
+        android:layout_height="231dp"
+        android:layout_alignRight="@id/RegisterGame"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/footballphoto" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="196dp"
+        android:layout_height="214dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-11dp"
+        android:layout_marginRight="-11dp"
+        android:layout_marginBottom="11dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/teniis" />
+
+</RelativeLayout>

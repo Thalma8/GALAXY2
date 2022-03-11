@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "259190009927",
+    "project_id": "galaxy-1a115",
+    "storage_bucket": "galaxy-1a115.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259190009927:android:65c423fe326d137eb74162",
+        "android_client_info": {
+          "package_name": "com.example.galaxy2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "259190009927-jsedk5h26kfgktimtfgee5ppoc8reh2c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.galaxy2",
+            "certificate_hash": "b0bbeb964806226e9c20d74afc57995fc57cdc9b"
+          }
+        },
+        {
+          "client_id": "259190009927-7uljhf9le2351h9q41u96g48ofslr4hk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBmDhp0674ayviQ8_kteLRDWMPSqtidBA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "259190009927-7uljhf9le2351h9q41u96g48ofslr4hk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

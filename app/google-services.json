@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "466640351180",
+    "project_id": "galaxy2-efe3c",
+    "storage_bucket": "galaxy2-efe3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466640351180:android:c8b7cb8bfa96722b4df769",
+        "android_client_info": {
+          "package_name": "com.example.galaxy2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466640351180-ltdtt0dg4c4o2epj2s79ir8pig86d3r6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFn7pj8q3ekY4n1zgtbW-4zeGVV_5ZDzc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466640351180-ltdtt0dg4c4o2epj2s79ir8pig86d3r6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

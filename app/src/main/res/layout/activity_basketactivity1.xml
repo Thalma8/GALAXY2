@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".basketactivity1">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cantata_one"
+        android:text="select an option from below"
+        android:textSize="20dp"
+        android:id="@+id/welcomebasket"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER NEW TEAM"
+        android:layout_below="@+id/welcomebasket"
+        android:layout_marginTop="100dp"
+        android:id="@+id/ongoingbtnbasket"
+        android:backgroundTint="#444"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CHECK ON GOING GAMES"
+        android:layout_below="@+id/ongoingbtnbasket"
+        android:layout_marginTop="30dp"
+        android:id="@+id/newteambtnbasket"
+        android:backgroundTint="#444"
+        />
+
+
+
+</RelativeLayout>
