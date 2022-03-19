@@ -20,7 +20,7 @@ public class ACTUALHOME extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_actualhome);
 
-        TextView RegisterGame = (TextView) findViewById(R.id.RegisterGame);
+
 
 
         buttonfootball = (Button) findViewById(R.id.Footballbtn);
